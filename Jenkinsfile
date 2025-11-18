@@ -26,10 +26,4 @@ node {
         echo "Saving JAR to Jenkins Artifacts..."
         archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
     }
-
-    stage('Run JAR (Optional)') {
-        echo "Running the application..."
-        // Change 'myapp.jar' according to your project name
-        bat 'java -jar target/*.jar'
-    }
 }
