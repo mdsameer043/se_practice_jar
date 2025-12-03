@@ -1,6 +1,6 @@
 package com.example;
 class Main{
 	public static void main(String args[]) {
-		System.out.print("lab internal 2");
+		System.out.print("lab external");
 	}
 }
