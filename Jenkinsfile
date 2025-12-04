@@ -106,3 +106,62 @@ node {
 
 
 
+
+
+
+
+
+
+
+
+//minikube start
+
+//kubectl create deployment mynginx --image=nginx
+
+//kubectl get deployments
+
+//kubectl get pods
+
+//kubectl describe pods
+
+
+//kubectl expose deployment mynginx --type=Nodeport --port=80 --target-port=80
+
+//kubectl scale deployment mynginx --replicas=4
+
+//kubectl get service mynginx
+
+//kubectl port-forward svc/mynginx 8082:80
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
